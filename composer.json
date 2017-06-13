@@ -1,0 +1,39 @@
+{
+  "name": "rvzug/laravel-lightspeed-bread",
+  "description": "BREAD implementation of Lightspeed resources in laravel app",
+  "keywords": [
+    "laravel",
+    "lightspeed",
+    "seoshop",
+    "api",
+    "laravel-lightspeed-api",
+    "laravel-lightspeed-sync",
+    "laravel-lightspeed-bread",
+  ],
+  "homepage": "https://github.com/rvzug/laravel-lightspeed-bread",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rudi van Zandwijk",
+      "email": "rudivanzandwijk@gmai.com",
+      "homepage": "https://github.com/rvzug/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php" : "^7.0",
+    "illuminate/support": "^5.2.8",
+    "seoshop/seoshop-php": "^1.8"
+    "gunharth/laravel-lightspeed-api": "^1.04",
+    "gunharth/laravel-lightspeed-sync": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.3.4",
+    "mockery/mockery": "^0.9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rvzug\\LightspeedBread\\": "src"
+    }
+  }
+}
